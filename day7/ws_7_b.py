@@ -13,7 +13,7 @@ class Myth:
 myth1 = Myth('dangun')
 myth2 = Myth('greek & rome')
 
-print(myth1.name)
-print(myth2.name)
-print(f'현재까지 생성된 신화 수: {Myth.type_of_myth}')
-print(Myth.description())
+print(f'{myth1.name}\n{myth2.name}\n현재까지 생성된 신화 수: {Myth.type_of_myth}\n{Myth.description()}')
+# print(myth2.name)
+# print(f'현재까지 생성된 신화 수: {Myth.type_of_myth}')
+# print(Myth.description())

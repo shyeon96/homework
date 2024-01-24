@@ -6,10 +6,10 @@ class Shape:
         self.height = height
 
     def print_info(self):
-        print(f'Width: {self.width}')
-        print(f'Height: {self.height}')
-        print(f'Area: {self.width * self.height}')
-        print(f'Perimeter: {(2 * self.width) + (2 * self.height)}')
+        print(f'Width: {self.width}\nHeight: {self.height}\nArea: {self.width * self.height}\nPerimeter: {(2 * self.width) + (2 * self.height)}')
+        # print(f'Height: {self.height}')
+        # print(f'Area: {self.width * self.height}')
+        # print(f'Perimeter: {(2 * self.width) + (2 * self.height)}')
         
 
 
